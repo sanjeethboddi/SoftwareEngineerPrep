@@ -200,7 +200,7 @@ Every task below maps to something you'll actually build in Phases 2–7.
 | T14 | Given a year, print whether it's a leap year | Boolean logic with `and`/`or`/`not`. Rule engines look exactly like this |
 | T15 | Sum the digits of `4825`. Then find the digit product | The **divmod** pattern. Used for currency conversion, base conversion, and unit splitting |
 | T16 | Factorial of `n`. Handle `0!`. Then loop for `n=10` | The classic "learn loops" exercise. Edge case `0!` teaches you to think about boundaries |
-| T17 | Print the multiplication table of `7` from 1 to 10 | Nested loops. Your first real loop-outer/loop-inner pattern |
+| T17 | Print the multiplication table of `7` from 1 to 10 | A single loop with a counter. For a nested-loop extension, print the tables for 1 through 10, each from ×1 to ×10 |
 | T18 | Print the first 100 numbers. Then only the evens. Then only the multiples of 7 | `range()` with steps. This is how paginate, batch, and rate-limit windows work |
 | T19 | Print the first 10 Fibonacci numbers, iteratively | Recurrence in code. This is your first "state" variable — the core of OOP later |
 | T20 | Sum `1` to `n`. Then sum the evens, then the odds | Accumulator pattern. **Every** aggregation, sum, and fold in data processing is this |
